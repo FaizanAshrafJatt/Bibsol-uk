@@ -5584,6 +5584,8 @@ ol.wp-block-rss {
     }
 }
 
+
+
 .th-header {
     position: relative;
     z-index: 41
@@ -6235,7 +6237,7 @@ width : 224px;
     top: -63%;
     left: 0;
     width: 18.4%;
-    height: 130px;
+    height: 167px;
     z-index: -1
 }
 
@@ -6244,7 +6246,12 @@ width : 224px;
     position: absolute;
     inset: 0;
     background-color: var(--theme-color);
-    z-index: -1
+    z-index: -1;
+    height: 165px 
+
+}
+.header-logo img {
+     margin-top: 10px;
 }
 
 @media (min-width: 2399px) {
